@@ -1,0 +1,14 @@
+.Button {
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+  border-color: transparent;
+  color: white;
+  background-color: rgba(151, 9, 94, 0.492);
+  -webkit-box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Button:hover {
+  transform: scale(1.1);
+}
