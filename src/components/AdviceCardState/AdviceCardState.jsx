@@ -22,13 +22,13 @@ const AdviceCardState = () => {
       <p>Post Number: #{advice.id}</p>
 
       <Button
-        disabled={advice.id < 1}
+        disabled={advice.id <= 1}
         onClick={prev}
         buttonTextContent="Prev!"
         type="button"
       />
       <Button
-        disabled={advice.id >= data.length - 1}
+        disabled={advice.id > data.length - 1}
         onClick={next}
         buttonTextContent="Next!"
         type="button"
@@ -38,3 +38,4 @@ const AdviceCardState = () => {
 };
 
 export default AdviceCardState;
+
